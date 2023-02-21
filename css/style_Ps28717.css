@@ -1,0 +1,598 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Antic Didone', serif;
+}
+.sale{
+    
+    background-color: #3b3b3b;
+    color: #f0efe6;
+    padding: 12px 40px;
+    font-size: 16px;
+    text-align: center;
+    max-width: 100%;
+    
+}   
+
+body{
+    background-color:  #F0EFE6;
+}
+.logo{
+    width: 74.3px;
+    height: 60px;
+    margin-top: 15px;
+    float: left;
+    cursor: pointer;
+}
+.left-menu{
+    float: left;
+    padding: 35px 30px;
+    left: 20px;
+    cursor: pointer;
+}
+.left-menu a{
+    padding: 20px 20px 0px 20px;
+    
+}
+.left-menu a:hover{
+    border-bottom:2px solid #3b3b3b;
+    transition: 0.1s;
+}
+.right-menu a:hover{
+    border-bottom:2px solid #3b3b3b;
+    transition: 0.1s;
+}
+
+.right-menu{
+    float: right;
+    padding: 27px 50px;
+    
+    
+}
+.right-menu a{
+    font-size: 14px;
+}
+.menu {
+    max-width: 100%;
+    margin: 0 40px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+/* foot */
+
+.content{
+    float: left;
+    margin-top: 80px;
+    margin-bottom: 160px;
+    font-size: 24px;
+    font-weight: bolder;
+    width: 100%;
+}
+span{
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.footer{
+    margin: 0 126.5px;
+    float: left;
+    padding: 0px 40px;
+}
+.foot1{
+    /* float: left; */
+    display: inline-block;
+    margin-right: 60px;
+    max-width: 300px;
+}
+.foot1 li:hover{
+    color:gray;
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+    margin: 12px 0;
+    font-size: 16px ;
+    
+}
+.foot2{
+    /* float: left; */
+    
+    display: inline-block;
+    margin-right: 60px;
+    max-width: 300px;
+    margin-top: 12px;
+    word-spacing: 2px;
+}
+.foot2 p{
+    color: gray;
+    line-height: 25px;
+}
+.foot3{
+    /* float: left; */
+    display: inline-block;
+    margin-right: 60px;
+    max-width: 300px;
+    margin-top: 12px;
+    word-spacing: 5px;
+    cursor: pointer;
+}
+.foot3 p, label{
+    color: gray;
+    
+}
+.foot3 span{
+    font-size: 16px;
+    
+}
+.infor{
+    margin-top: 30px;
+}
+.infor1{
+    margin-top: 42px;
+    width: 210px;
+    height: 20px;
+}
+.foot3 i{
+    margin-top: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+i{
+    cursor: pointer;
+    margin-left: 10px;
+}
+i:hover{
+    color:#9D7551;
+}
+
+.dc{
+    text-align: center;
+    margin-top: 100px;
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+/* body */
+
+.mens{
+    width: 770px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+.mens i {
+    margin: 0 5px;
+    color: gray;
+}
+.mens h1{
+    font-size: 58px;
+}
+.dad-fist h1{
+    color: black;
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.mid-top{
+    width: 100%;
+    float: left;
+}
+.direc{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    color: gray;
+    cursor: pointer;
+}
+
+.mider{
+    width: 100%;
+    float: left;
+}
+
+
+.mid{
+    width: 100%;
+    float: left;
+    border-top: 1px solid rgba(0,0,0,0.08);
+    margin-top: 30px;
+    padding: 0px 40px;
+}
+.mid-left{
+    max-width: 300px;
+    float: left;
+    height: 2500px;
+    position: relative;
+    
+}
+
+.mid-left> ul> li{
+    padding: 18px 0px;
+    width:210px ;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 20px;
+    border-bottom: solid rgba(0,0,0,0.08);
+    cursor: pointer;  
+}
+.categories-list li{
+    font-size: 12px;
+    color: gray
+}
+.categories-list li:hover{
+    color: black;
+    transform: scale(1.1);
+}
+ul.categories-list{
+    display: none;
+}
+li:hover ul.categories-list{
+    display: block;
+}
+.price1{
+    float: left;
+    color: gray;
+    font-size: 12px;
+}
+.price2{
+    float: right;
+    color: gray;
+    font-size: 12px;
+}
+.input-price{
+    width: 190px;
+}
+.mid-left ul li i{
+    float: right;
+    color: gray;
+}
+.mid-right{
+    width: 1000px;
+    position: absolute;
+    margin-left: 280px;
+}
+.man{
+    width: 100%;
+    float: left;
+    border-left: solid rgba(0,0,0,0.08);
+}
+boder{
+    border-bottom: solid rgba(0,0,0,0.08);
+}
+
+.man-fisrt img {
+    width:100%;
+    /* float:left; */
+    margin-top: 70px;
+    /* padding-left: 30px; */
+    padding: 30px 30px 30px 15px;
+}
+
+.man-fisrt{
+    width: calc(100%/3);
+    float: left;
+    padding-left: 15px;
+}
+.man-fisrt:hover{
+    border-radius: 20px;
+    border: solid #3b3b3b;
+}
+.product{
+    text-align: center;
+}
+.product p{
+    margin-top: 15px;
+    color: gray;
+    margin-bottom: 30px;
+}
+img{
+    cursor: pointer;
+}
+h5{
+    color: black;
+    font-size: 16px;
+}
+.count p{
+    color: gray;
+
+}
+.count{
+    float: left;
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,0.08);
+    padding-top: 20px;
+}
+.count-left{
+    float: left;
+    padding-left: 10px;
+}
+.count span{
+  color: black;  
+  font-weight:bold;
+  
+}
+.count-mid{
+    float: left;
+    margin-left: 300px;
+}
+.count-right{
+    float: right;
+
+}
+.home1{
+    width: 100%;
+    float: left;
+    padding-top: 70px;
+    cursor: pointer;
+    position: relative;
+}
+.home1:hover{
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+.container h3{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 110px;
+    font-size: 38px;
+    font-weight: bolder;
+    color: white;
+    height: 300px;
+    
+}
+
+.container p{
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 40px;
+    color: white;
+}
+
+.container p i{
+    font-size: 16px;
+    font-weight: 200px;
+}
+
+
+
+.home2left{
+    width: 49%;
+    height: 320px;
+    float: left;
+    margin-right: 1%;
+    margin-top: 2%;
+    margin-bottom: 90px;
+    background-size: cover;
+    background-position: center;
+}
+.home2left:hover{
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+.home2right{
+    width: 49%;
+    height: 320px;
+    float: left;
+    margin-left:1% ;
+    margin-top: 2%;
+    margin-bottom: 90px;
+    background-size: cover;
+    background-position: center;
+}
+.home2right:hover{
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    
+}
+.hero{
+    width: 100%;
+    float: left;
+}
+
+.mid{
+    width: 100%;
+    float: left;
+}
+.midjr{
+    max-width: 100%;
+    max-height: 552px;
+    margin: 0 auto;
+}
+.home3{
+    width: calc(100%/3);
+    /* width: 453.33px; */
+    height: 552px;
+    float: left;
+    background-size: cover;
+    background-position:center ;
+}
+.home3:hover{
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+.dad{
+    width: 100%;
+    float: left;
+}
+.dad-fist h1{
+    font-size: 40px;
+}
+.dad-fist{
+    width: 1150px;
+    margin: 0 auto;
+    
+}
+.sp{
+    text-align: center;
+}
+.sp-img img{
+    width: 600px;
+    height: 600px;
+}
+.sp-img img:hover{
+    transform: scale(1.5);
+    transition: 0.7s;
+}
+.sp h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.freebird span{
+    font-size: 16px;
+}
+.location-img img{
+    width: 100%;
+    height: 663px;
+    margin-top: 50px;
+}
+.location-img img:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.contant {
+    width: 100%;
+    
+}
+.location1{
+    max-width: 1150px;
+    margin: 0 auto;
+    text-align: center;
+}
+.location1 h4{
+    margin-top: 70px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.location1 h4:hover{
+    transform: scale(1.04);
+}
+.location1 .text1{
+    font-size: 24px;
+    margin-top: 15px;
+}
+.location1 p:hover{
+    transform: scale(1.04);
+}
+.location1 .text2{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 90px;
+}
+.location1 .text2 p{
+    margin-top: 5px;
+}
+.login{
+    width: 100%;
+    float: left;
+}
+.access{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.inf{
+    width: 300px;
+    float: left;
+}
+.register{
+    width: 350px;
+    float: right;
+}
+.forget{
+    width: 100%;
+    float: left;
+}
+.access h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.inf p {
+    margin-bottom: 30px;
+    color: gray;
+}
+.inf input{
+    width: 100%;
+    margin-bottom: 30px;
+    height: 30px;
+    border: none;
+    border-bottom: solid 2px black;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+.inf input:hover{
+    border-bottom: dashed 2.5px black;
+}
+.inf button{
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: wheat;
+    cursor: pointer;
+}
+.register p{
+    color: gray;
+    margin-bottom: 100px;
+}
+.register span{
+    font-size: 20px;
+    cursor: pointer;
+}
+.forget {
+    margin-top: 60px;
+    text-align: center;
+    border-top: solid gainsboro;
+    padding-top: 30px;
+}
+.tt1{
+    width: 200px;
+    float:left;
+    font-size: 32px;
+}
+.tilte img{
+    width: 200px;
+    height: 240px;
+    object-fit: cover;
+    
+}
+.tt2{
+    width: 300px;
+    float:left;
+    color:transparent;
+    
+}
+.tt22{
+    width: 280px;
+    float:left;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.tt3{
+    width: 200px;
+    float:left;
+    font-size: 16px;
+}
+.tt4{
+    width: 200px;
+    float:left;
+    font-size: 16px;
+}
+.tilte{
+    padding-bottom: 5px;
+    width: 100%;
+    float: left;
+    border-bottom:solid 1px gainsboro;
+    margin-bottom: 30px;
+}
