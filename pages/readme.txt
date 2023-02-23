@@ -1,1 +1,1 @@
-https://github.com/hocdz1394/hocnq-ps28717
+https://hocdz1394.github.io/hocnqps28717/
